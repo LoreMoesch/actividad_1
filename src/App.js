@@ -13,8 +13,6 @@ import {
   ModalFooter,
 } from "reactstrap";
 
-
-
 const data = [
   { id: 1, NombrePuesto: "Desarrollo", Empresa:"PilarTecno", Ciudad: "La Rioja", Pais: "Argentina" },
   
@@ -34,6 +32,7 @@ class App extends React.Component {
     },
   };
 
+  
   mostrarModalModificar = (dato) => {
     this.setState({
       form: dato,
